@@ -321,6 +321,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.14"
+  trotter:
+    dependency: "direct main"
+    description:
+      name: trotter
+      sha256: df2d9b73105ece8455d490cb6ad05bf7c51f07e3db017a0f0979b97c24ef2e84
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.2"
   typed_data:
     dependency: transitive
     description:
@@ -329,6 +337,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.0"
+  vector_math:
+    dependency: "direct main"
+    description:
+      name: vector_math
+      sha256: d530bd74fea330e6e364cda7a85019c434070188383e1cd8d9777ee586914c5b
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
   vm_service:
     dependency: transitive
     description:
