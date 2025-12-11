@@ -22,7 +22,6 @@ Future<void> part1() async {
     return circuits.indexed.firstWhereOrNull((a) => a.$2.contains(junction))?.$1;
   }
   
-  print(Combinations(2, junctionBoxes).length);
   final combs = Combinations(2, junctionBoxes)().toList(growable: false);
   combs.sort((a, b) => (a[0].distanceTo(a[1]) - b[0].distanceTo(b[1])).ceil());
   print('sorted');
